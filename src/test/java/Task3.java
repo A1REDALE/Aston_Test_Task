@@ -8,7 +8,7 @@ public class Task3 {
             int size = input.nextInt();
             int[] array = new int[size];
             for (int i = 0; i < array.length; i++) {
-                System.out.println("Введите " + (i + 1) + "-3й элемент массива: ");
+                System.out.println("Введите " + (i + 1) + "-й элемент массива: ");
                 array[i] = input.nextInt();
             }
             for (int num : array) {
